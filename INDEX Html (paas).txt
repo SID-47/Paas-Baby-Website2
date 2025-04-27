@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My First Baby Website</title>
+    <title>My Cool Website</title>
+    <style>
+      body {
+        background-color: #f0f8ff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      img {
+        width: 300px;
+        border-radius: 20px;
+        margin-top: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World! 👶🚀</h1>
-    <p>I made my first website!</p>
+    <h1>🚀 Welcome to My Cool Website!</h1>
+    <p>I’m learning how to rule the internet, one page at a time. 😎</p>
+    <img src="https://picsum.photos/300" alt="Random Photo">
+    <br>
+    <button onclick="alert('Thanks for clicking!')">Click Me!</button>
   </body>
 </html>
